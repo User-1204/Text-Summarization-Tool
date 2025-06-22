@@ -16,12 +16,12 @@
 #  Text Summarization Tool  
 **Efficient Extractive Summarization of Web Articles using Classical NLP Techniques**  
 
-## 📚 Overview: 
+## Overview: 
 In today's information-driven world, **text summarization** plays a crucial role in helping readers quickly grasp the essence of lengthy documents, articles, and reports. This project presents a streamlined **extractive summarization pipeline in Python**, leveraging **Natural Language Toolkit (NLTK)** alongside web scraping tools like `BeautifulSoup` and `urllib`.
 
 This tool demonstrates its capabilities by summarizing a **Wikipedia article** (on Pope Francis), converting unstructured web content into a **concise, coherent summary**.  
 
-## 🔍 Methodology:  
+## Methodology:  
 The summarization pipeline follows a structured approach:  
 
 ### 1️. Data Acquisition (Web Scraping)  
@@ -45,7 +45,7 @@ Each sentence is evaluated by summing the normalized frequencies of its key word
 ### 5️. Summary Generation and Visualization  
 The extracted sentences are structured into a **bullet-point summary** for clarity. Additionally, a **word frequency distribution plot** (using Matplotlib) visually highlights the most common words in the article.  
 
-## 💼 Requirements: 
+## Requirements: 
 Ensure the following Python libraries are installed:  
 
 ```bash
@@ -59,14 +59,14 @@ nltk.download('punkt')
 nltk.download('stopwords')
 ```
 
-## 🎯 Applications:  
+## Applications:  
 This tool can be used for:  
 - Quick summarization of lengthy articles and reports  
 - Educational demonstrations of classical NLP techniques  
 - Preprocessing steps for machine learning pipelines  
 - Prototyping information extraction or recommendation systems  
 
-## 🚀 Future Improvements:  
+## Future Improvements:  
 - Make URL input **fully dynamic** for any article  
 - Expand support for **multiple languages**  
 - Integrate **Named Entity Recognition (NER)** for smarter sentence selection  
@@ -74,5 +74,5 @@ This tool can be used for:
 - Implement **abstractive summarization with deep learning (Transformers, BERT)**  
 - Allow document summarization from **local files (PDF, DOCX, TXT)**  
 
-## 📤 Output:
+## Output:
 ![Image](https://github.com/user-attachments/assets/28a89729-530f-428f-ae1b-1f56ccb680d7)
